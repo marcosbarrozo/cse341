@@ -1,1 +1,13 @@
-GET http://localhost:3000 HTTP/1.1
+//LOCAL HOST
+GET http://localhost:8080/ HTTP/1.1
+
+###
+GET http://localhost:8080/contacts HTTP/1.1
+
+### 
+GET http://localhost:8080/contacts/6452c2cfb99412b2bc478e91 HTTP/1.1
+
+GET http://localhost:8080/contacts/6452c325b99412b2bc478e92 HTTP/1.1
+
+GET http://localhost:8080/contacts/6452c35eb99412b2bc478e93 HTTP/1.1
+

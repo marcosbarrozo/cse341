@@ -1,0 +1,23 @@
+{
+    "contact": {
+        "firstName":"Eduardo", 
+        "lastName":"Barrozo",
+        "email":"eduardobarrozo@test.com", 
+        "favoriteColor":"green", 
+        "birthday":"07/18/2007"
+    },
+    "contact2": {
+        "firstName":"Leiliane", 
+        "lastName":"Barrozo",
+        "email":"leiliane.sabino@outlook.com", 
+        "favoriteColor":"blue", 
+        "birthday":"04/28/1993"
+    }
+    ,"contact3": {
+        "firstName":"Maria", 
+        "lastName":"Helena",
+        "email":"mariahelena@test.com", 
+        "favoriteColor":"pink", 
+        "birthday":"11/26/19"
+    }
+}
