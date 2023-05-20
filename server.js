@@ -5,12 +5,14 @@ const mongodb = require('./db/connect');
 const port = process.env.PORT || 8080
 const app = express();
 
+
+
 app.use(bodyParser.json())
 .use((req,res,next)=>{
     res.setHeader('Acess-Control-Allow-Origin','*');
     next();
 })
-.use('/', require('./routes/'));
+.use('/', require('./routes/'))
 
 mongodb.initDb((err, mongodb) => {
     if (err) {

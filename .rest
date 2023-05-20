@@ -5,28 +5,28 @@ GET http://localhost:8080/ HTTP/1.1
 GET http://localhost:8080/contacts HTTP/1.1
 
 ### 
-GET http://localhost:8080/contacts/6452c2cfb99412b2bc478e91 HTTP/1.1
-
-### 
 GET http://localhost:8080/contacts/6452c325b99412b2bc478e92 HTTP/1.1
 
 ### 
 GET http://localhost:8080/contacts/6452c35eb99412b2bc478e93 HTTP/1.1
 
+### 
+GET http://localhost:8080/contacts/645eb76a4e55bb8d269664dc HTTP/1.1
+
 
 ###
-DELETE http://localhost:8080/contacts/6452c2cfb99412b2bc478e91 HTTP/1.1
+DELETE http://localhost:8080/contacts/6452c325b99412b2bc478e92 HTTP/1.1
 
 ###
 POST http://localhost:8080/contacts HTTP/1.1
 Content-Type:  application/json
 
 {
-    "firstName":"Eduardo", 
+    "firstName":"Marcos", 
     "lastName":"Barrozo",
-    "email":"eduardobarrozo@test.com", 
-    "favoriteColor":"green", 
-    "birthday":"07/18/2007"
+    "email":"marcosbarrozo@test.com", 
+    "favoriteColor":"blue", 
+    "birthday":"05/09/1996"
 }
 
 ###
@@ -37,7 +37,7 @@ Content-Type:  application/json
   "firstName": "Maria",
   "lastName": "Helena",
   "email": "mariahelena@test.com",
-  "favoriteColor": "blue",
+  "favoriteColor": "pink",
   "birthday": "11/26/19"
 }
 
